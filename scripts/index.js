@@ -95,7 +95,7 @@ function details (id) {
 
 function displayDetails (detail){
     // console.log(detail)
-    const modalSection = document.getElementById("modal_section").showModal()
+    const modalSection = document.getElementById("detail_container").showModal()
 
 }
 details()
