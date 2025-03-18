@@ -20,8 +20,11 @@
     />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
-     <!-- font owsome setUP -->
-     <script src="https://kit.fontawesome.com/62d327b163.js" crossorigin="anonymous"></script>
+    <!-- font owsome setUP -->
+    <script
+      src="https://kit.fontawesome.com/62d327b163.js"
+      crossorigin="anonymous"
+    ></script>
 
     <style>
       .poppins-thin {
@@ -30,27 +33,198 @@
     </style>
   </head>
   <body class="poppins-thin">
+    <!-- navbar section -->
 
-     <!-- navbar section -->
-
-       <nav class="max-w-11/12 mx-auto flex justify-between  mt-5 items-center">
-        <div class="flex items-center space-x-1">
-            <h1 class="text-2xl font-bold">English</h1>
-            <div>
-                <img src="./assets/logo.png" alt="">
-            </div>
-            <h2 class="text-xl font-medium">জানালা</h2>
+    <nav
+      id="navbar_section"
+      class="max-w-11/12 mx-auto flex justify-between mt-5 items-center"
+    >
+      <div class="flex items-center space-x-1">
+        <h1 class="text-2xl font-bold">English</h1>
+        <div>
+          <img src="./assets/logo.png" alt="" />
         </div>
+        <h2 class="text-xl font-medium">জানালা</h2>
+      </div>
 
-        <div class="flex items text-blue-500-center space-x-4">
-            <button class="btn text-blue-500 bg-white border border-blue-500 hover:bg-blue-500 hover:text-white"><i class="fa-solid fa-question"></i>FAQ</button>
-            <button class="btn text-blue-500 bg-white border border-blue-500 hover:bg-blue-500 hover:text-white"><i class="fas fa-book-open"></i>Learn</button>
-            <button class="btn text-blue-500 bg-white border border-blue-500 hover:bg-blue-500 hover:text-white"><i class="fas fa-sign-out-alt"></i>Logout</button>
-        </div> 
-       </nav>
-
+      <div class="flex items text-blue-500-center space-x-4">
+        <button
+          class="btn text-blue-500 bg-white border border-blue-500 hover:bg-blue-500 hover:text-white"
+        >
+          <i class="fa-solid fa-question"></i>FAQ
+        </button>
+        <button
+          class="btn text-blue-500 bg-white border border-blue-500 hover:bg-blue-500 hover:text-white"
+        >
+          <i class="fas fa-book-open"></i>Learn
+        </button>
+        <button
+          class="btn text-blue-500 bg-white border border-blue-500 hover:bg-blue-500 hover:text-white"
+        >
+          <i class="fas fa-sign-out-alt"></i>Logout
+        </button>
+      </div>
+    </nav>
 
     <!-- navbar section end -->
+
+    <!-- bannet sectio start -->
+
+    <section id="Banner_section" class="max-w-11/12 mx-auto flex items-center">
+      <!-- text div -->
+
+      <div class="space-y-2">
+       <div>
+        <h1 class="text-3xl font-bold">
+            <span class="text-cyan-400">English</span> is Easy!!
+          </h1>
+       </div>
+         <div> <p class="text-gray-600">
+            আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি নতুন হন অথবা
+            আপনার দক্ষতা বাড়াতে চান, আমাদের Interactive Lessons আপনাকে নিয়ে <br> যাবে
+            অন্য একটি Level এ
+          </p></div>
+
+             <div>
+                <fieldset class="fieldset">
+                    <input value="" id="user_name" type="text" class="input" placeholder="Enter your Name" />
+                  </fieldset>
+             </div>
+             <div>
+                
+          <fieldset class="fieldset">
+            <input value="" id="user_password" type="password" class="input" placeholder="Password Please 123456" />
+          </fieldset>
+             </div>
+
+          <div>
+            <button id="login_button" class="btn bg-blue-500 text-white font-medium">Get Started</button>
+          </div>
+      </div>
+
+      <!-- image div -->
+
+      <div>
+        <img src="./assets/hero-student.png" alt="">
+      </div>
+    </section>
+    <!-- bannet sectio End -->
+
+
+    <!-- lets Learn vukabulari section  start-->
+     <section id="button_section" class="max-w-11/12 mx-auto">
+        <div>
+            <h1 id="Learn_Vocabularies" class="justify-self-center text-3xl"><span class="text-cyan-400">Let's</span> Learn Vocabularies</h1>
+        </div>
+
+          <!-- dianamic button section -->
+
+          <div class="flex space-x-4 items-center justify-center">
+
+          </div>
+     </section>
+    <!-- lets Learn vukabulari section  End-->
+
+
+    <!-- ekti session secect korun -->
+
+    <section id="child_text" class="max-w-11/12 mx-auto bg-gray-100 mt-10 py-16 rounded-md">
+              
+        <div>
+            <p class="text-gray-600 pb-4 text-center  text-sm">আপনি এখনো কোন Lesson Select করেন ন</p>
+            <h1 class="font-semibold text-center text-xl">একটি Lesson Select করুন।</h1>
+        </div>
+    </section>
+
+
+    <!-- question section -->
+     
+  <section id="question_section">
+    <div class=" mt-10  ml-5">
+        <h1  class=" justify-self-center mt-5 mb-10 text-3xl"><span class="text-cyan-400">Frequently</span> Asked Questions</h1>
+  
+       <div class="space-y-3 bg-white p-5 rounded-md">
+          <div class="collapse bg-base-100 border border-base-300 space-y-3 shadow-md rounded-md">
+              <input type="radio" name="my-accordion-1" checked="checked" />
+              <div class="collapse-title font-semibold">1.  the difference between var, let, and const</div>
+              <div class="collapse-content text-sm">var and let create variables that can be reassigned another value. const creates "constant" variables that cannot be reassigned another value. developers shouldn't use var anymore. They should use let or const instead</div>
+            </div>
+  
+            <div class="collapse bg-base-100 border border-base-300  shadow-md rounded-md">
+              <input type="radio" name="my-accordion-1" />
+              <div class="collapse-title font-semibold">2. the difference between map(), forEach(), and filter()</div>
+              <div class="collapse-content text-sm">Foreach return nothing filter will return a array of maching elements or empty array  and map will return a array .</div>
+            </div>
+  
+            <div class="collapse bg-base-100 border border-base-300  shadow-md rounded-md">
+              <input type="radio" name="my-accordion-1" />
+              <div class="collapse-title font-semibold">3. explain arrow functions and how they are different from regular functions?</div>
+              <div class="collapse-content text-sm">An arrow function expression is a compact alternative to a traditional function expression, with some semantic differences and deliberate limitations in usage: Arrow functions don't have their own bindings to this , arguments , or super , and should not be used as methods.</div>
+            </div>
+  
+            <div class="collapse bg-base-100 border border-base-300  shadow-md rounded-md">
+              <input type="radio" name="my-accordion-1" />
+              <div class="collapse-title font-semibold">4.how JavaScript Promises work </div>
+              <div class="collapse-content text-sm">In JavaScript, a Promise is an object that will produce a single value some time in the future. If the promise is successful, it will produce a resolved value, but if something goes wrong then it will produce a reason why the promise failed. The possible outcomes here are similar to that of promises in real life</div>
+            </div>
+  
+            <div class="collapse bg-base-100 border border-base-300  shadow-md rounded-md">
+              <input type="radio" name="my-accordion-1" />
+              <div class="collapse-title font-semibold">4. how closures work in javascript</div>
+              <div class="collapse-content text-sm">A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment). In other words, a closure gives a function access to its outer scope. In JavaScript, closures are created every time a function is created, at function creation time</div>
+            </div>
+       </div>
+  
+  
+  
+      </div>
+  </section>
+
+
+  <!-- footer section -->
+   
+  <footer id="Footer_section" class="mt-10 pb-20">
+    <p class="border border-red-100"></p>
+  
+    <!-- parent div -->
+    <div class="max-w-11/12 mx-auto pt-10 flex  items-center justify-between">
+       <!-- child div frist -->
+      <div class="space-y-1">
+    
+         
+        <div class="flex items-center space-x-1">
+            <h2 class="font-semibold text-xl">English</h2>
+            <div>
+              <img src="./assets/logo.png" alt="" />
+            </div>
+            <h3 class="font-medium">জানালা</h3>
+          </div>
+        <h2 class="font-bold mt-5">ইংরেজি শিখুন সহজে</h2>
+        <p>Providing ED-Tech Applications since 2025</p>
+
+      </div>
+
+         <!-- child div secend -->
+          <div class="mt-8">
+            <p class="text-gray-400 font-semibold mb-2">Follow us</p>
+            <div class="flex space-x-3 items-center">
+                <div>
+                    <a href="https://www.facebook.com/shafayet.shad.3" target="_blank"><img src="./assets/fb-thumb.png" alt=""></a>
+                </div>
+               <div>
+                <a href="https://www.youtube.com/@CodeWithHarry" target="_blank" alt=""><img src="./assets/youtube-thumb.png" alt=""></a>
+               </div>
+             <div>
+                <a href="https://www.instagram.com/" target="_blank"><img src="./assets/instagram-thumb.png" alt=""></a>
+             </div>
+               <div>
+                <a href="https://github.com/" target="_blank"><img src="./assets/github-thumb.png" alt=""></a>
+              </div>
+            </div>
+
+          </div>
+    </div>
+</footer>
 
 
 
