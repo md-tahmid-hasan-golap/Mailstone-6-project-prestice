@@ -87,13 +87,13 @@
 
              <div>
                 <fieldset class="fieldset">
-                    <input value="" id="user_name" type="text" class="input" placeholder="Enter Your Name" />
+                    <input value="Golap" id="user_name" type="text" class="input" placeholder="Enter Your Name" />
                   </fieldset>
              </div>
              <div>
                 
           <fieldset class="fieldset">
-            <input value="" id="user_password" type="password" class="input" placeholder="Enter Your Password 123456" />
+            <input value="123456" id="user_password" type="password" class="input" placeholder="Enter Your Password 123456" />
           </fieldset>
              </div>
 
@@ -119,23 +119,26 @@
 
           <!-- dianamic button section -->
 
-          <div class="flex space-x-4 items-center justify-center">
+          <div id="button_dianamic" class="flex space-x-4 items-center justify-center mt-10">
 
           </div>
+     </section>
+
+     <section id="card_section" class="max-w-11/12 grid grid-cols-3 gap-5 justify-center mt-10">
+
      </section>
    
 
 
     <!-- ekti session secect korun -->
 
-    <section id="child_text" class="max-w-11/12 mx-auto bg-gray-100 mt-10 py-16 rounded-md">
+    <section id="child_text" class="max-w-11/12 mx-auto  bg-gray-100 mt-10 py-16 rounded-md">
               
         <div>
             <p class="text-gray-600 pb-4 text-center  text-sm">আপনি এখনো কোন Lesson Select করেন ন</p>
             <h1 class="font-semibold text-center text-xl">একটি Lesson Select করুন।</h1>
         </div>
     </section>
-
 
     <!-- question section -->
      
@@ -226,6 +229,23 @@
     </div>
 </footer>
 
+
+  <div  class="mb-20">
+    <!-- Open the modal using ID.showModal() method -->
+<button class="btn" onclick="my_modal_1.showModal()">open modal</button>
+<dialog id="modal_section" class="modal">
+  <div class="modal-box">
+    <h3 class="text-lg font-bold">Hello!</h3>
+    <p class="py-4">Press ESC key or click the button below to close</p>
+    <div class="modal-action">
+      <form method="dialog">
+        <!-- if there is a button in form, it will close the modal -->
+        <button class="btn">Close</button>
+      </form>
+    </div>
+  </div>
+</dialog>
+  </div>
 
   <script src="./scripts/index.js"></script>
   </body>
