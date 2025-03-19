@@ -29,6 +29,27 @@ document.getElementById("login_button").addEventListener("click", function () {
   }
 });
 
+// locout function
+
+
+document.getElementById("logout").addEventListener("click", function () {
+  document.getElementById("navbar_section").style.display = "none";
+document.getElementById("button_section").style.display = "none";
+document.getElementById("child_text").style.display = "none";
+document.getElementById("card_section").style.display = "none";
+document.getElementById("question_section").style.display = "none";
+document.getElementById("Banner_section").style.display = "flex";
+ 
+})
+
+
+document.getElementById("Fau_button").addEventListener("click", function () {
+    document.getElementById("question_section").scrollIntoView({behavior : "smooth"})
+})
+
+document.getElementById("Learn_Button").addEventListener("click", function () {
+  document.getElementById("child_text").scrollIntoView({behavior : "smooth"})
+})
 // load catagori Selection
 
 function loadCatagori() {
