@@ -122,3 +122,4 @@ function displayDetails (detail){
 details()
 loadWords();
 loadCatagori();
+
